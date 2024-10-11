@@ -1,51 +1,77 @@
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px auto;
-    max-width: 600px;
-  }
-  
-  label {
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #218838;
-  }
+/* Main container for scheduling form */
+.scheduling-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  box-shadow: 3px 5px 4px 2px rgba(0, 0, 0, 0.2);
+  background-color: #e7f1ff;
+}
 
-  a {
-    display: block;
-    text-align: center;
-    margin-top: 30px;
-    text-decoration: none;
-    color: white;
-    background-color: #007BFF;
-    padding: 10px 20px;
-    border-radius: 5px;
-    max-width: 200px;
-    margin: 30px auto;
-  }
-  
-  a:hover {
-    background-color: #0056b3;
-  }
+  /* Style for form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Style for labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style for input fields and textarea */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-left: 0;
+}
+
+/* Style for textarea specifically */
+textarea {
+  height: 100px;
+}
+
+/* Style for submit button */
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Changes button collor on hover */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for link */
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #007BFF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  max-width: 200px;
+  margin: 30px auto;
+}
+
+/* Changes link color on hover */
+a:hover {
+  background-color: #0056b3;
+}

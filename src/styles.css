@@ -1,14 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body {
-    height: 100%;
+body {
+    margin: 0;
+    padding: 0;
+    color: ivory;
+    background-color: #f4f4f4;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    text-align: center;
+h1 {
+    color: #333;
+  }
+  
+p {
+    color: #333;
 }
